@@ -18,11 +18,11 @@ namespace Algorithms.Tests.Part1
         {
             var array = Enumerable.Range(Min, Count).ToArray();
             var secretNumber = Random.Next(Min, Count - 1);
+            var maxAttempts = Math.Ceiling(Math.Log(Count, 2));
 
             var guessResult = _guesser.GuessPosition(array, secretNumber);
 
             Assert.AreEqual(Array.IndexOf(array, secretNumber), guessResult.IndexOf);
-            var maxAttempts = Math.Ceiling(Math.Log(Count, 2));
             Assert.GreaterOrEqual(maxAttempts, guessResult.Attempts);
         }
 
@@ -43,11 +43,11 @@ namespace Algorithms.Tests.Part1
         {
             var array = new[] {1, 2, 3, 4, 5};
             var secretNumber = 6;
+            var maxAttempts = Math.Ceiling(Math.Log(array.Length, 2));
 
             var guessResult = _guesser.GuessPosition(array, secretNumber);
 
             Assert.AreEqual(-1, guessResult.IndexOf);
-            var maxAttempts = Math.Ceiling(Math.Log(array.Length, 2));
             Assert.AreEqual(maxAttempts, guessResult.Attempts);
         }
     }
