@@ -32,6 +32,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Part1\BinaryTrees.cs" />
     <Compile Include="Part1\Models\GuesserResult.cs" />
     <Compile Include="Part1\NumberGuesser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
