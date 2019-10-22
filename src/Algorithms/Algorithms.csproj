@@ -35,6 +35,7 @@
     <Compile Include="Part1\BinaryTrees.cs" />
     <Compile Include="Part1\Models\GuesserResult.cs" />
     <Compile Include="Part1\NumberGuesser.cs" />
+    <Compile Include="Part2\SelectionSort.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
