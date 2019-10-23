@@ -39,6 +39,7 @@
     <Compile Include="Part3\Factorial.cs" />
     <Compile Include="Part3\KeyInBoxFinder.cs" />
     <Compile Include="Part3\Models\Box.cs" />
+    <Compile Include="Part4\Farmer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
