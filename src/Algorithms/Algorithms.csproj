@@ -36,6 +36,7 @@
     <Compile Include="Part1\Models\GuesserResult.cs" />
     <Compile Include="Part1\NumberGuesser.cs" />
     <Compile Include="Part2\SelectionSort.cs" />
+    <Compile Include="Part3\Factorial.cs" />
     <Compile Include="Part3\KeyInBoxFinder.cs" />
     <Compile Include="Part3\Models\Box.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
