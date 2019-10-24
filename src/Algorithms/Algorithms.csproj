@@ -40,6 +40,8 @@
     <Compile Include="Part3\KeyInBoxFinder.cs" />
     <Compile Include="Part3\Models\Box.cs" />
     <Compile Include="Part4\Farmer.cs" />
+    <Compile Include="Part4\FindMax.cs" />
+    <Compile Include="Part4\RecursiveCount.cs" />
     <Compile Include="Part4\Summator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
